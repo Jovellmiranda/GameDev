@@ -18,8 +18,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"cSpawn","order":1,"path":"objects/cSpawn/cSpawn.yy",},
+    {"name":"vPlayerAttack","order":5,"path":"sprites/vPlayerAttack/vPlayerAttack.yy",},
+    {"name":"vPlayerDeath","order":2,"path":"sprites/vPlayerDeath/vPlayerDeath.yy",},
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"roll","order":3,"path":"sprites/roll/roll.yy",},
     {"name":"vPlayerIdle","order":1,"path":"sprites/vPlayerIdle/vPlayerIdle.yy",},
     {"name":"pUnit","order":2,"path":"objects/pUnit/pUnit.yy",},
+    {"name":"shield","order":4,"path":"sprites/shield/shield.yy",},
   ],
 }
