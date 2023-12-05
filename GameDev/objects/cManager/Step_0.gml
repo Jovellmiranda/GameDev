@@ -9,6 +9,7 @@ switch(combatphase){
 	break;
 	
 	case phase.startTurn:
+	BubbleSort(global.units)
 		combatphase = phase.wait;
 	break;
 	

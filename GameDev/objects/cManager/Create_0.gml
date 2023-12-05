@@ -1,3 +1,6 @@
+randomize();
+
+
 
 enum phase{
 	init,
