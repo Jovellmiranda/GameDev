@@ -3,6 +3,13 @@
 #macro SPEED 2
 
 #macro IDLE 0
+#macro ATTACK 1
+#macro MISS 2
+#macro HURT 3
+#macro DEFEND 4
+#macro ToDEFEND 5
+
+
 state = IDLE;
 
 base[HEALTH] = 10;
