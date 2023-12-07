@@ -18,7 +18,7 @@ switch(combatphase){
 	break;
 	
 	case phase.process:
-		combatphase = phase.checkFinish
+		combatphase = phase.checkFinish;
 	break;
 	
 	case phase.checkFinish:
