@@ -14,8 +14,8 @@
     "resourceVersion": "1.0",
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "30",
-            ],},},"Disabled":false,"id":"98e1c3d4-4037-4043-a6c2-c9218e3366c0","IsCreationKey":false,"Key":30.0,"Length":1.0,"Stretch":false,},
+              "AttackSent",
+            ],},},"Disabled":false,"id":"c7593e48-a369-4782-b5ea-430bb6446736","IsCreationKey":false,"Key":172.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

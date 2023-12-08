@@ -38,7 +38,6 @@ incomingDamage = 0;
 function DamageUnit(amount){
 	var damage = amount - current[@ DEFENCEPOWER];
 	
-	
 	if (damage < 0){
 		current[HEALTH] = current[@HEALTH];
 	} else{

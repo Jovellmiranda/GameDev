@@ -2,7 +2,7 @@ switch(combatphase){
 	case phase.init:
 		for (var i = 0; i < instance_number(cSpawn); i++){
 			var spawner = instance_find(cSpawn, i);
-			var unit = instance_create_depth(spawner.x, spawner.y, 0, oPlayer);
+			var unit = instance_create_depth(spawner.x, spawner.y, 0, pUnit);
 			ds_list_add(global.units, unit);
 		}
 		combatphase = phase.startTurn;
@@ -16,7 +16,7 @@ switch(combatphase){
 					turnFinished = false;
 			
 			}
-			unitFinished = 0 ;
+			unitsFinished = 0 ;
 		}
 			for (var i = 0; i < ds_list_size(global.units); i++){
 				var inst = global.units[|i];
@@ -30,7 +30,7 @@ switch(combatphase){
 	break;
 	
 	case phase.wait:
-		if(global.selectedUnit.turnFinished == true){
+		if(selectedFinished == true){
 			global.selectedUnit.selected = false;
 		unitsFinished ++;	
 		combatphase = phase.process;
@@ -51,6 +51,7 @@ switch(combatphase){
 	break;
 	
 	case phase.endTurn:
+		selectedFinished = false;
 		combatphase = phase.startTurn;
 	break;
 	
