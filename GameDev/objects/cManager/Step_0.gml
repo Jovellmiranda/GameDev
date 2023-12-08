@@ -21,6 +21,7 @@ switch(combatphase){
 			for (var i = 0; i < ds_list_size(global.units); i++){
 				var inst = global.units[|i];
 				if (inst.turnFinished == false){
+					inst.selected = true;
 					global.selectedUnit = inst;
 					break;
 			}
@@ -30,6 +31,7 @@ switch(combatphase){
 	
 	case phase.wait:
 		if(global.selectedUnit.turnFinished == true){
+			global.selectedUnit.selected = false;
 		unitsFinished ++;	
 		combatphase = phase.process;
 		}

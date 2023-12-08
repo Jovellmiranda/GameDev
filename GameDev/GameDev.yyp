@@ -44,6 +44,7 @@
     {"id":{"name":"Helper","path":"scripts/Helper/Helper.yy",},},
     {"id":{"name":"roll","path":"sprites/roll/roll.yy",},},
     {"id":{"name":"vPlayerHurt","path":"sprites/vPlayerHurt/vPlayerHurt.yy",},},
+    {"id":{"name":"vIndicator","path":"sprites/vIndicator/vIndicator.yy",},},
     {"id":{"name":"vPlayerIdle","path":"sprites/vPlayerIdle/vPlayerIdle.yy",},},
     {"id":{"name":"pUnit","path":"objects/pUnit/pUnit.yy",},},
     {"id":{"name":"vPlayerShield","path":"sprites/vPlayerShield/vPlayerShield.yy",},},

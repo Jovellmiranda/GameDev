@@ -21,3 +21,4 @@ current[SKILLPOINTS] = base[@SKILLPOINTS];
 current[SPEED] = base[@SPEED];
 
 turnFinished = false;
+selected = false;

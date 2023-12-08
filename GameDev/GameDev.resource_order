@@ -24,6 +24,7 @@
     {"name":"vPlayerMiss","order":7,"path":"sprites/vPlayerMiss/vPlayerMiss.yy",},
     {"name":"roll","order":3,"path":"sprites/roll/roll.yy",},
     {"name":"vPlayerHurt","order":6,"path":"sprites/vPlayerHurt/vPlayerHurt.yy",},
+    {"name":"vIndicator","order":8,"path":"sprites/vIndicator/vIndicator.yy",},
     {"name":"vPlayerIdle","order":1,"path":"sprites/vPlayerIdle/vPlayerIdle.yy",},
     {"name":"pUnit","order":2,"path":"objects/pUnit/pUnit.yy",},
     {"name":"vPlayerShield","order":4,"path":"sprites/vPlayerShield/vPlayerShield.yy",},
