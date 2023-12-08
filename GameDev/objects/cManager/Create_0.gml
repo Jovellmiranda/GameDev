@@ -14,6 +14,7 @@ enum phase{
 }
 
 combatphase = phase.init;
+unitsFinished = 0;
 
 global.selectedUnit = noone;
 global.units = ds_list_create();

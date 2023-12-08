@@ -9,19 +9,30 @@ switch(combatphase){
 	break;
 	
 	case phase.startTurn:
-	BubbleSort(global.units);
-		for (var i = 0; i < ds_list_size(global.units); i++){
-			var inst = global.units[|i];
-			if (inst.turnFinished == false){
-				global.selectedUnit = inst;
-				break;
+		BubbleSort(global.units);
+		if (unitsFinished >= ds_list_size(global.units)){
+			for (var i = 0; i < ds_list_size(global.units); i++){
+				with(global.units[|i])
+					turnFinished = false;
+			
+			}
+			unitFinished = 0 ;
 		}
+			for (var i = 0; i < ds_list_size(global.units); i++){
+				var inst = global.units[|i];
+				if (inst.turnFinished == false){
+					global.selectedUnit = inst;
+					break;
+			}
 	}
 		combatphase = phase.wait;
 	break;
 	
 	case phase.wait:
+		if(global.selectedUnit.turnFinished == true){
+		unitsFinished ++;	
 		combatphase = phase.process;
+		}
 	break;
 	
 	case phase.process:
@@ -29,12 +40,12 @@ switch(combatphase){
 	break;
 	
 	case phase.checkFinish:
-		if(keyboard_check_released(vk_space))
+		//if(keyboard_check_released(vk_space))
 		combatphase = phase.endTurn;
-		if(keyboard_check_released(vk_enter))
+		/*if(keyboard_check_released(vk_enter))
 		combatphase = phase.win;
 		if(keyboard_check_released(vk_control))
-		combatphase = phase.lose;
+		combatphase = phase.lose;*/
 	break;
 	
 	case phase.endTurn:
