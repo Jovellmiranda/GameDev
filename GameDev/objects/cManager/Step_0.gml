@@ -9,7 +9,14 @@ switch(combatphase){
 	break;
 	
 	case phase.startTurn:
-	BubbleSort(global.units)
+	BubbleSort(global.units);
+		for (var i = 0; i < ds_list_size(global.units); i++){
+			var inst = global.units[|i];
+			if (inst.turnFinished == false){
+				global.selectedUnit = inst;
+				break;
+		}
+	}
 		combatphase = phase.wait;
 	break;
 	
