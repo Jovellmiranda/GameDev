@@ -7,7 +7,20 @@ function BubbleSort(list){
 				var temp = list[|j];
 				list[|j] = list[|j+1];
 				list[|j+1] = temp;
-			}
+				}
+		}
 	}
 }
+
+function CheckForHit(){
+	var number = random(1);
+	var unit = global.selectedUnit;
+	if (number > unit.current[@ ACCURACY])
+		unit.attackWillHit = true;
+	else
+		unit.attackWillHit = false;
+
+
+
+
 }
