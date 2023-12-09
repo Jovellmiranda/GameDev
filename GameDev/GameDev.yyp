@@ -42,6 +42,7 @@
     {"id":{"name":"sPlayer","path":"sequences/sPlayer/sPlayer.yy",},},
     {"id":{"name":"rAttack","path":"sprites/rAttack/rAttack.yy",},},
     {"id":{"name":"vPlayerAttack","path":"sprites/vPlayerAttack/vPlayerAttack.yy",},},
+    {"id":{"name":"rIdle","path":"sprites/rIdle/rIdle.yy",},},
     {"id":{"name":"vPlayerDeath","path":"sprites/vPlayerDeath/vPlayerDeath.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Defend","path":"sprites/Defend/Defend.yy",},},

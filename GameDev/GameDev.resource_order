@@ -23,6 +23,7 @@
     {"name":"rHurt","order":16,"path":"sprites/rHurt/rHurt.yy",},
     {"name":"rAttack","order":15,"path":"sprites/rAttack/rAttack.yy",},
     {"name":"vPlayerAttack","order":5,"path":"sprites/vPlayerAttack/vPlayerAttack.yy",},
+    {"name":"rIdle","order":20,"path":"sprites/rIdle/rIdle.yy",},
     {"name":"vPlayerDeath","order":2,"path":"sprites/vPlayerDeath/vPlayerDeath.yy",},
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"Defend","order":12,"path":"sprites/Defend/Defend.yy",},
