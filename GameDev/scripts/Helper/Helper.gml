@@ -20,7 +20,14 @@ function CheckForHit(){
 	else
 		unit.attackWillHit = false;
 
-
-
-
 }
+
+function UnitAttack(){
+	if (global.selectedUnit.attackWillHit){
+		with(global.selectedTargets){
+			state = HURT;
+			layer_sequence_headpos(unitSequence, hurtStart);
+		}
+	}	
+}
+

@@ -40,7 +40,7 @@ break;
 case ToDEFEND:{
 if (layer_sequence_get_headpos(unitSequence) > ToDefendEnd){
 	layer_sequence_headpos(unitSequence, idleStart);
-	state = DEFEND;	
+	state = IDLE;
 }
 break;
 }

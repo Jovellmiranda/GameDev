@@ -16,7 +16,7 @@ switch(combatphase){
 					turnFinished = false;
 			
 			}
-			unitsFinished = 0 ;
+			unitsFinished = 0;
 		}
 			for (var i = 0; i < ds_list_size(global.units); i++){
 				var inst = global.units[|i];
@@ -38,10 +38,14 @@ switch(combatphase){
 	break;
 	
 	case phase.process:
+		if (processFinsished)
+		
+	
 		combatphase = phase.checkFinish;
 	break;
 	
 	case phase.checkFinish:
+		processFinsished = false;
 		//if(keyboard_check_released(vk_space))
 		combatphase = phase.endTurn;
 		/*if(keyboard_check_released(vk_enter))
@@ -52,6 +56,7 @@ switch(combatphase){
 	
 	case phase.endTurn:
 		selectedFinished = false;
+		global.selectedTargets = noone;
 		combatphase = phase.startTurn;
 	break;
 	
