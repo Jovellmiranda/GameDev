@@ -25,6 +25,7 @@ case HURT:{
 	if (layer_sequence_get_headpos(unitSequence) > hurtEnd){
 		DamageUnit(incomingDamage);
 	layer_sequence_headpos(unitSequence, idleStart);
+		incomingDamage = 0;
 		state = IDLE;
 
 }
@@ -33,14 +34,13 @@ break;
 case DEFEND:{
 if (layer_sequence_get_headpos(unitSequence) > defendEnd){
 	layer_sequence_headpos(unitSequence, idleStart);
-	state = DEFEND;
 }
 break;
 }
 case ToDEFEND:{
 if (layer_sequence_get_headpos(unitSequence) > ToDefendEnd){
 	layer_sequence_headpos(unitSequence, idleStart);
-	state = IDLE;
+	state = DEFEND;
 }
 break;
 }
