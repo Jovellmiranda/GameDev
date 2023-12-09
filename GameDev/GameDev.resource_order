@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"Attack","order":10,"path":"sprites/Attack/Attack.yy",},
     {"name":"cSpawn","order":1,"path":"objects/cSpawn/cSpawn.yy",},
+    {"name":"Walk","order":19,"path":"sprites/Walk/Walk.yy",},
     {"name":"rHurt","order":16,"path":"sprites/rHurt/rHurt.yy",},
     {"name":"rAttack","order":15,"path":"sprites/rAttack/rAttack.yy",},
     {"name":"vPlayerAttack","order":5,"path":"sprites/vPlayerAttack/vPlayerAttack.yy",},

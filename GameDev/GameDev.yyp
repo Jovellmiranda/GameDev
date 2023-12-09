@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"Attack","path":"sprites/Attack/Attack.yy",},},
     {"id":{"name":"cSpawn","path":"objects/cSpawn/cSpawn.yy",},},
+    {"id":{"name":"Walk","path":"sprites/Walk/Walk.yy",},},
     {"id":{"name":"cManager","path":"objects/cManager/cManager.yy",},},
     {"id":{"name":"rHurt","path":"sprites/rHurt/rHurt.yy",},},
     {"id":{"name":"sPlayer","path":"sequences/sPlayer/sPlayer.yy",},},
