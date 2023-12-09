@@ -5,7 +5,6 @@ if (layer_sequence_get_headpos(unitSequence) > idleEnd){
 	
 }
 break;
-
 case ATTACK:{
 	if (layer_sequence_get_headpos(unitSequence) > attackEnd){
 	turnFinished = true;

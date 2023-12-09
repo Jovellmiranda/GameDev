@@ -32,7 +32,7 @@ current[ACCURACY] = base[@ACCURACY];
 
 turnFinished = false;
 selected = false;
-attackWillHit = 0;
+attackWillHit = false;
 incomingDamage = 0;
 
 function DamageUnit(amount){

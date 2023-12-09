@@ -32,8 +32,8 @@ switch(combatphase){
 	case phase.wait:
 		if(selectedFinished == true){
 			global.selectedUnit.selected = false;
-		unitsFinished ++;	
-		combatphase = phase.process;
+			unitsFinished ++;	
+			combatphase = phase.process;
 		}
 	break;
 	
