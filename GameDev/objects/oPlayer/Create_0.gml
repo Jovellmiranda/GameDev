@@ -1,6 +1,6 @@
 event_inherited();
 
-unitSequence = layer_sequence_create("sequence",x,y,sPlayer);
+unitSequence = layer_sequence_create("sequence",x,y, sPlayer);
 
 idleStart = 0;
 idleEnd = 29;
@@ -17,4 +17,5 @@ defendEnd= 150 ;
 hurtStart = 60;
 hurtEnd = 89;
 deathStart = 179;
+
 deathEnd = 202;

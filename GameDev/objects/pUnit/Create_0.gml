@@ -41,7 +41,7 @@ function DamageUnit(amount){
 	if (damage < 0){
 		current[HEALTH] = current[@HEALTH];
 	} else{
-		current[@ HEALTH] -= damage;
+		current[@HEALTH] -= damage;
 	}
 	// One Version
 	//current[@ HEALTH] -= max(0, damage);
