@@ -17,6 +17,5 @@ defendEnd= 142 ;
 hurtStart = 56;
 hurtEnd = 85;
 
-deathStart = 172;
-
-deathEnd = 203;
+deathStart = 169;
+deathEnd = 195;

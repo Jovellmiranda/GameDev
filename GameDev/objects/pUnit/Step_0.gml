@@ -35,26 +35,26 @@ switch(state) {
             } else {
                 layer_sequence_headpos(unitSequence, deathStart);
                 ds_list_delete(global.units, ds_list_find_index(global.units, id));
-                state = DEATH; // Added to transition to DEATH state
+                state = DEATH; 
             }
         }
         break;
 
     case DEFEND:
         if (layer_sequence_get_headpos(unitSequence) > defendEnd) {
-            layer_sequence_headpos(unitSequence, idleStart);
+            layer_sequence_headpos(unitSequence, defendStart);
         }
         break;
 
     case ToDEFEND:
         if (layer_sequence_get_headpos(unitSequence) > ToDefendEnd) {
-            layer_sequence_headpos(unitSequence, idleStart);
+            layer_sequence_headpos(unitSequence, defendStart);
             state = DEFEND;
         }
         break;
 
     case DEATH:
-        if (layer_sequence_get_headpos(unitSequence) > deathEND) {
+        if (layer_sequence_get_headpos(unitSequence) > deathEnd) {
             instance_destroy();
         }
         break;
