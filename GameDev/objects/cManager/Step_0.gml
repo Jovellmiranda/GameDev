@@ -26,6 +26,7 @@ switch(combatphase){
 					break;
 			}
 	}
+	allowInput = true;
 		combatphase = phase.wait;
 	break;
 	

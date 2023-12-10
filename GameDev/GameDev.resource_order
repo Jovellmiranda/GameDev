@@ -33,6 +33,7 @@
     {"name":"roll","order":3,"path":"sprites/roll/roll.yy",},
     {"name":"vPlayerHurt","order":6,"path":"sprites/vPlayerHurt/vPlayerHurt.yy",},
     {"name":"vIndicator","order":8,"path":"sprites/vIndicator/vIndicator.yy",},
+    {"name":"unitHP","order":23,"path":"sprites/unitHP/unitHP.yy",},
     {"name":"vPlayerIdle","order":1,"path":"sprites/vPlayerIdle/vPlayerIdle.yy",},
     {"name":"Dead","order":11,"path":"sprites/Dead/Dead.yy",},
     {"name":"rDead","order":17,"path":"sprites/rDead/rDead.yy",},

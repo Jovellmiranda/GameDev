@@ -2,20 +2,21 @@ event_inherited();
 
 unitSequence = layer_sequence_create("sequence",x,y, sPlayer);
 
-idleStart = 0;
-idleEnd = 29;
+idleStart = 1;
+idleEnd = 28;
 
-attackStart = 150 ;
-attackEnd = 180;
+attackStart = 151 ;
+attackEnd = 171;
 
-missStart = 90;
-missEnd = 120 ;
+missStart = 85;
+missEnd = 115;
 
-defendStart = 121 ;
-defendEnd= 150 ;
+defendStart = 115 ;
+defendEnd= 142 ;
 
-hurtStart = 60;
-hurtEnd = 89;
-deathStart = 179;
+hurtStart = 56;
+hurtEnd = 85;
 
-deathEnd = 202;
+deathStart = 172;
+
+deathEnd = 203;

@@ -8,6 +8,7 @@ if (event_data[? "event_type"] == "sequence event"){
 				//}
 			break;
 			
+		case "unitDeath":
 		case "UnitMiss":
 		case "UnitHurt":
 			processFinsished = true;

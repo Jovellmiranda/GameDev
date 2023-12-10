@@ -17,6 +17,7 @@ combatphase = phase.init;
 unitsFinished = 0;
 selectedFinished = false;
 processFinsished = false;
+allowInput = false;
 
 
 global.selectedUnit = noone;

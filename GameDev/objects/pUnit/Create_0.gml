@@ -12,6 +12,7 @@
 #macro HURT 3
 #macro DEFEND 4
 #macro ToDEFEND 5
+#macro DEATH 6
 
 
 state = IDLE;
@@ -34,6 +35,8 @@ turnFinished = false;
 selected = false;
 attackWillHit = false;
 incomingDamage = 0;
+hpBarWidth =  sprite_get_width(unitHP);
+hpBarHeight = sprite_get_height(unitHP);
 
 function DamageUnit(amount){
 	var damage = amount - current[@ DEFENCEPOWER];
@@ -43,8 +46,6 @@ function DamageUnit(amount){
 	} else{
 		current[@HEALTH] -= damage;
 	}
-	// One Version
-	//current[@ HEALTH] -= max(0, damage);
 }
 
 

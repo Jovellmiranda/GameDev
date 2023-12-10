@@ -53,6 +53,7 @@
     {"id":{"name":"roll","path":"sprites/roll/roll.yy",},},
     {"id":{"name":"vPlayerHurt","path":"sprites/vPlayerHurt/vPlayerHurt.yy",},},
     {"id":{"name":"vIndicator","path":"sprites/vIndicator/vIndicator.yy",},},
+    {"id":{"name":"unitHP","path":"sprites/unitHP/unitHP.yy",},},
     {"id":{"name":"vPlayerIdle","path":"sprites/vPlayerIdle/vPlayerIdle.yy",},},
     {"id":{"name":"Dead","path":"sprites/Dead/Dead.yy",},},
     {"id":{"name":"rDead","path":"sprites/rDead/rDead.yy",},},

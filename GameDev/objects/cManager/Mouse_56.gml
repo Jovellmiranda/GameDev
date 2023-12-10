@@ -1,3 +1,4 @@
+if(allowInput){
 with (global.selectedUnit){
 	state =	ATTACK;
 	layer_sequence_headpos(unitSequence, attackStart);
@@ -5,7 +6,10 @@ with (global.selectedUnit){
 		if (global.units [|i] != global.selectedUnit){
 			global.selectedTargets = global.units[|i];
 			break;
+			}
+		
 		}
 		
 	}
+	allowInput = false;
 }
