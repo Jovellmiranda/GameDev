@@ -1,6 +1,6 @@
 randomize();
 
-
+audio_play_sound(Let_the_Battles_Begin__8_Bit,0,true)
 
 enum phase{
 	init,
@@ -23,3 +23,9 @@ allowInput = false;
 global.selectedUnit = noone;
 global.units = ds_list_create();
 global.selectedTargets = noone;
+
+global.targets = ds_list_create();
+global.targeting = false;
+
+baseUI = layer_get_id("Base_UI");
+targetUI = layer_get_id("Targeting_UI");

@@ -1,3 +1,9 @@
+#macro Camera_Width camera_get_view_width(view_camera[0])
+#macro Camera_Height camera_get_view_height(view_camera[0])
+
+#macro Display_ScaleX display_get_gui_width()/Camera_Width
+#macro Display_ScaleY display_get_gui_height()/Camera_Height
+
 #macro HEALTH 0
 #macro SKILLPOINTS 1
 #macro SPEED 2
@@ -37,6 +43,8 @@ attackWillHit = false;
 incomingDamage = 0;
 hpBarWidth =  sprite_get_width(unitHP);
 hpBarHeight = sprite_get_height(unitHP);
+
+drawTarget = false;
 
 function DamageUnit(amount){
 	var damage = amount - current[@ DEFENCEPOWER];

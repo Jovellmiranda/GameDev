@@ -1,5 +1,10 @@
 switch(combatphase){
 	case phase.init:
+	layer_set_visible(targetUI,false);
+	instance_deactivate_layer(targetUI);
+	layer_set_visible(baseUI,false);
+	
+	
 		for (var i = 0; i < instance_number(cSpawn); i++){
 			var spawner = instance_find(cSpawn, i);
 			var unit = instance_create_depth(spawner.x, spawner.y, 0, oPlayer);
@@ -26,7 +31,12 @@ switch(combatphase){
 					break;
 			}
 	}
-	allowInput = true;
+	
+	
+	if  (!allowInput){ 
+	allowInput= true;
+	event_user(1);
+	}
 		combatphase = phase.wait;
 	break;
 	
@@ -35,14 +45,26 @@ switch(combatphase){
 			global.selectedUnit.selected = false;
 			unitsFinished ++;	
 			combatphase = phase.process;
+			
+			event_user(0);
+			layer_set_visible(targetUI,false);
+			instance_activate_layer(targetUI);
+			layer_set_visible(baseUI,false);
+			instance_deactivate_layer(baseUI);
 		}
 	break;
 	
 	case phase.process:
-		if (processFinsished)
-		
-	
+		if (processFinsished){	
 		combatphase = phase.checkFinish;
+		
+		global.targeting = false;
+		for (var i = 0; i < ds_list_size(global.units); i++){
+			with (global.units[|i]){
+				drawTarget =  false;
+			}
+		}
+	}
 	break;
 	
 	case phase.checkFinish:
@@ -58,6 +80,9 @@ switch(combatphase){
 	case phase.endTurn:
 		selectedFinished = false;
 		global.selectedTargets = noone;
+		
+		ds_list_clear(global.targets);
+		
 		combatphase = phase.startTurn;
 	break;
 	
