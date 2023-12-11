@@ -55,7 +55,7 @@ function SkillButton(){
 	var _sp = global.selectedUnit.current[@ SKILLPOINTS];
 	if (_sp >= _cost){
 		global.skillTargeting = true;
-		global.slectedUnit.selectedSkill = global.selectedUnit.learnedSkill[@ ds_list_find_index(global.skillsButtons, id)];
+		global.selectedUnit.selectedSkill = global.selectedUnit.learnedSkill[@ ds_list_find_index(global.skillsButtons, id)];
 		for (var i = 0; i < ds_list_size(global.units); i++){
 			var _inst = global.units[| i];
 			if (_inst != global.selectedUnit){

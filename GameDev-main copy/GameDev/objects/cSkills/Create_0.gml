@@ -35,3 +35,4 @@ Skill = function(_name, _element, _type, _healthChange, _cost, _action) construc
 
 global.skill[skill.slash] = new Skill("Slash", skillElement.none, skillType.physical, 2, 1, singleTargetAttack);
 global.skill[skill.multiSlash] = new Skill("M-Slash", skillElement.none, skillType.physical, 2, 2, multiTargetAttack);
+global.skillTargeting = false;
