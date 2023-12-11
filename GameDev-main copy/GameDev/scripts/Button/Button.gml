@@ -62,13 +62,14 @@ function SkillButton(){
 				//Temporary until we add teams
 				ds_list_add(global.targets, _inst);
 			}
+		}
 			with(cManager){
 				event_user(0);
 		        event_user(2); //disable input
 		        event_user(3);
 		        event_user(0); //enable input
 			}
-		}
+		//}
 	} else{
 		show_message("Not enough skill point");
 	}
