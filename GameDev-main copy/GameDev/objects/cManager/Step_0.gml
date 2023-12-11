@@ -4,6 +4,8 @@ switch(combatphase){
 	instance_deactivate_layer(targetUI);
 	layer_set_visible(baseUI,false);
 	
+	layer_set_visible(skillsUI, false);
+	instance_deactivate_layer(skillsUI);
 	
 		for (var i = 0; i < instance_number(cSpawn); i++){
 			var spawner = instance_find(cSpawn, i);
@@ -88,6 +90,9 @@ switch(combatphase){
 		
 		ds_list_clear(global.targets);
 		
+		global.skillTargeting = false;
+		ds_list_clear(global.selectedTargets);
+		 
 		combatphase = phase.startTurn;
 	break;
 	

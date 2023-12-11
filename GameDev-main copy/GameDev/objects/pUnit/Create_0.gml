@@ -19,6 +19,7 @@
 #macro DEFEND 4
 #macro ToDEFEND 5
 #macro DEATH 6
+#macro SKILL 7
 
 
 state = IDLE;
@@ -46,6 +47,15 @@ hpBarHeight = sprite_get_height(unitHP);
 
 drawTarget = false;
 defending = false;
+
+function UseSkillPoints(amount){
+	current[SKILLPOINT] -= amount;
+}
+learnedSkill[0] = -1;
+learnedSkill[1] = -1;
+selectedSkill = -1;
+
+
 
 function DamageUnit(amount){
 	var damage = amount - current[@ DEFENCEPOWER];

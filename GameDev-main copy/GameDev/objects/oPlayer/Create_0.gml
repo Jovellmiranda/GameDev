@@ -25,3 +25,10 @@ todefendEnd = 133;
 
 defendStart = 134;
 defendEnd = 149;
+
+skillStart = 197;
+skillEnd = 232;
+
+learnedSkill[0] = global.skill[skill.slash];
+learnedSkill[1] = global.skill[skill.multiSlash];
+

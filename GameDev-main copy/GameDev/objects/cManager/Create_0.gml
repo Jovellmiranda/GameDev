@@ -22,10 +22,16 @@ allowInput = false;
 
 global.selectedUnit = noone;
 global.units = ds_list_create();
-global.selectedTargets = noone;
+global.selectedTargets = ds_list_create();
 
 global.targets = ds_list_create();
 global.targeting = false;
 
 baseUI = layer_get_id("Base_UI");
 targetUI = layer_get_id("Targeting_UI");
+
+global.skillsButtons = ds_list_create();
+global.skillsTargeting = false;
+skillSent = false; 
+instance_create_depth(0,0,0, cSkills); //TODO: create a cSkills object
+skillsUI = layer_get_id("SkillsUI");
