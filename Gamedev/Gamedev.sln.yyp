@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"Attack","path":"sprites/Attack/Attack.yy",},},
@@ -56,6 +56,7 @@
     {"id":{"name":"pButton","path":"objects/pButton/pButton.yy",},},
     {"id":{"name":"Helper","path":"scripts/Helper/Helper.yy",},},
     {"id":{"name":"Button","path":"scripts/Button/Button.yy",},},
+    {"id":{"name":"vPlayerSkill","path":"sprites/vPlayerSkill/vPlayerSkill.yy",},},
     {"id":{"name":"roll","path":"sprites/roll/roll.yy",},},
     {"id":{"name":"vPlayerHurt","path":"sprites/vPlayerHurt/vPlayerHurt.yy",},},
     {"id":{"name":"vIndicator","path":"sprites/vIndicator/vIndicator.yy",},},
@@ -64,6 +65,7 @@
     {"id":{"name":"Dead","path":"sprites/Dead/Dead.yy",},},
     {"id":{"name":"rDead","path":"sprites/rDead/rDead.yy",},},
     {"id":{"name":"cSkills","path":"objects/cSkills/cSkills.yy",},},
+    {"id":{"name":"grass_field_background_landscape_meadow_background_mountain_and_sky_free_vector","path":"sprites/grass_field_background_landscape_meadow_background_mountain_and_sky_free_vector/grass_field_background_landscape_meadow_background_mountain_and_sky_free_vector.yy",},},
     {"id":{"name":"pUnit","path":"objects/pUnit/pUnit.yy",},},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},},
     {"id":{"name":"uiSP","path":"sprites/uiSP/uiSP.yy",},},

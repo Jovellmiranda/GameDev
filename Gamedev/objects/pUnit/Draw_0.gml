@@ -6,4 +6,4 @@ if (drawTarget) draw_sprite(vTargeting,0,x,y);
 
 if (selected) draw_sprite(vIndicator,0,x,y);
 
-draw_text(x,y, string(team));
+//draw_text(x,y, string(team));

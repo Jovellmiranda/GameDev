@@ -16,31 +16,30 @@ with (global.selectedUnit){
 */
 
 if (global.targeting){
-if (position_meeting(mouse_x,mouse_y,pUnit)){
-	var unit = instance_position(mouse_x,mouse_y,pUnit);
-	if (unit.team != global.selectedUnit.team){
-		ds_list_clear(global.selectedTargets);
-		with (global.selectedUnit){
-			state = ATTACK;
-			layer_sequence_headpos(unitSequence, attackStart);
-			}
-			ds_list_add(global.selectedTargets, unit);
-		}
-	}
+    if (position_meeting(mouse_x, mouse_y, pUnit)){
+        var unit = instance_position(mouse_x, mouse_y, pUnit);
+        if (unit.team != global.selectedUnit.team){
+            ds_list_clear(global.selectedTargets);
+            with (global.selectedUnit){
+                state = ATTACK;
+                layer_sequence_headpos(unitSequence, attackStart);
+            }
+            ds_list_add(global.selectedTargets, unit);
+        }
+    }
 } 
 
 if (global.skillTargeting){
-	if (position_meeting(mouse_x, mouse_y, pUnit)){
-		var unit = instance_position(mouse_x, mouse_y, pUnit);
-		if (unit.team != global.selectedUnit.team){
-		var _skill = global.selectedUnit.selectedSkill;
-		ds_list_clear(global.selectedTargets);
-		
-		with (global.selectedUnit){
-			state = SKILL;
-			layer_sequence_headpos(unitSequence, skillStart);
-		}
-		script_execute(_skill.action, unit);
-	  }
-	}
+    if (position_meeting(mouse_x, mouse_y, pUnit)){
+        var unit = instance_position(mouse_x, mouse_y, pUnit);
+        if (unit.team != global.selectedUnit.team){
+            var _skill = global.selectedUnit.selectedSkill;
+            ds_list_clear(global.selectedTargets);
+            with (global.selectedUnit){
+                state = SKILL;
+                layer_sequence_headpos(unitSequence, skillStart);
+            }
+            script_execute(_skill.action, unit);
+        }
+    }
 }
