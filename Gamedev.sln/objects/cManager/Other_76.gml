@@ -8,7 +8,7 @@ if (event_data[? "event_type"] == "sequence event"){
 		case "UnitDefend":
 			global.selectedUnit.turnFinished = true;
 			selectedFinished = true;
-			processFinished = true;
+			processFinsished = true;
 		break;
 		//fix
 		case "UnitDeath":

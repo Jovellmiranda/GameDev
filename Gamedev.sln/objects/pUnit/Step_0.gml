@@ -1,8 +1,11 @@
 switch(state) {
     case IDLE:
-        if (layer_sequence_get_headpos(unitSequence) > idleEnd) {
+		
+        if  (!defending){
+		if(layer_sequence_get_headpos(unitSequence) > idleEnd) {
             layer_sequence_headpos(unitSequence, idleStart);
         }
+		}
         break;
 
     case ATTACK:
@@ -28,7 +31,7 @@ switch(state) {
         if (layer_sequence_get_headpos(unitSequence) > hurtEnd) {
             DamageUnit(incomingDamage);
             if (current[@HEALTH] > 0){
-				cManager.processFinished = true; //fix
+				cManager.processFinsished = true; //fix
                 layer_sequence_headpos(unitSequence, idleStart);
                 incomingDamage = 0;
                 state = IDLE;

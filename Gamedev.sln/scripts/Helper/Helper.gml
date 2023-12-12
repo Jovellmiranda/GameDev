@@ -36,8 +36,9 @@ function UnitAttack(){
 		}
 	}	
 }
+}
 
-function unitDefend(){
+function UnitDefend(){
     with(global.selectedUnit){
         defending = true;
     }
@@ -80,7 +81,6 @@ function AIChoose (){
 		state = ATTACK;
 		layer_sequence_headpos(unitSequence, attackStart);
 	}
-	ds_list_add(global.selectedTargets, unit_);
+	ds_list_add(global.selectedTargets, _unit);
 	cManager.aiDone = true;
-}
 }

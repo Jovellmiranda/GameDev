@@ -52,7 +52,7 @@ team = 0; //0 = ally, 1 = enemy, 2 = neutral
 
 
 function UseSkillPoints(amount){
-	current[SKILLPOINT] -= amount;
+	current[@ SKILLPOINTS] -= amount;
 }
 learnedSkill[0] = -1;
 learnedSkill[1] = -1;

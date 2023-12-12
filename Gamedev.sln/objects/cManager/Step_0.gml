@@ -86,8 +86,8 @@ switch(combatphase){
 					drawTarget =  false;
 			}
 		}
-		processFinished = true;
-		if (processFinished)//fix
+		processFinsished = true;
+		if (processFinsished)//fix
 			combatphase = phase.checkFinish;
 	}
 	break;
@@ -104,13 +104,13 @@ switch(combatphase){
 		}
 		
 		if (allies<=0){
-			CombatPhase = phase.lose;
+			combatphase = phase.lose;
 		}
 		else if (enemies <= 0){
-			CombatPhase = phase.win;
+			combatphase = phase.win;
 		}
 		else {
-			CombatPhase = phase.endTurn;
+			combatphase = phase.endTurn;
 		}
 			
 		//if(keyboard_check_released(vk_space))

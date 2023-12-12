@@ -15,22 +15,25 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "UnitHurt",
-            ],},},"Disabled":false,"id":"4a70864d-fd72-482d-9e8c-6d5332cf0803","IsCreationKey":false,"Key":81.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"54f57fa5-2874-494c-b066-909f96f87ceb","IsCreationKey":false,"Key":81.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "UnitMiss",
-            ],},},"Disabled":false,"id":"22ad2105-2f84-413c-b996-87a98f008869","IsCreationKey":false,"Key":116.0,"Length":1.0,"Stretch":false,},
-      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "AttackSent",
-            ],},},"Disabled":false,"id":"ecaf06fb-0c0c-408c-890c-e66b63e8b979","IsCreationKey":false,"Key":171.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"10b5dc61-cc85-484d-8d5a-22c1a598891a","IsCreationKey":false,"Key":119.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "UnitDefend",
-            ],},},"Disabled":false,"id":"63870cd9-3db9-46bf-beb8-3cef19ff3d32","IsCreationKey":false,"Key":181.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"e017def8-a5a1-4658-9514-6b4936f6b371","IsCreationKey":false,"Key":142.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "AttackSent",
+            ],},},"Disabled":false,"id":"edc85572-3340-4ebe-9c6d-0969e072f89e","IsCreationKey":false,"Key":171.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "UnitDefend",
+            ],},},"Disabled":false,"id":"77dd7952-865b-44e3-90a2-54ae6214428a","IsCreationKey":false,"Key":181.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "unitDeath",
-            ],},},"Disabled":false,"id":"1953faf1-31df-4d1b-ae9c-4ac730154b2c","IsCreationKey":false,"Key":194.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"589e6953-60f5-43f4-bb28-911c487141ab","IsCreationKey":false,"Key":194.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "SkillSent",
-            ],},},"Disabled":false,"id":"31bbfff4-9c88-440d-8169-e12107f18107","IsCreationKey":false,"Key":220.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"cf7168ff-2bed-4cea-afa3-7a738def0f34","IsCreationKey":false,"Key":220.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,
@@ -42,20 +45,20 @@
     "resourceVersion": "1.0",
     "Keyframes": [
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
-              "unitDefend",
-            ],},},"Disabled":false,"id":"2540d91a-e1ab-4d31-a9e2-8ffa119b0a4d","IsCreationKey":false,"Key":116.0,"Length":1.0,"Stretch":false,},
+              "UnitDefend",
+            ],},},"Disabled":false,"id":"d7b89f53-d42a-49d1-9f0e-a90628bb5506","IsCreationKey":false,"Key":124.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
               "CheckForHit",
-            ],},},"Disabled":false,"id":"66616218-b0f0-40b5-973c-84b41ed2241b","IsCreationKey":false,"Key":153.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"71fa7b87-a11c-41bc-9c3e-9bdf265aeb51","IsCreationKey":false,"Key":153.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
               "UnitAttack",
-            ],},},"Disabled":false,"id":"a269c30c-82ed-4050-a3d9-16d1199076bd","IsCreationKey":false,"Key":168.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"04695c69-0f8f-428d-9aa5-4529043bebfa","IsCreationKey":false,"Key":168.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
               "UnitSkill",
-            ],},},"Disabled":false,"id":"68d79247-14a4-4ffc-b17c-a66c6332cfd9","IsCreationKey":false,"Key":204.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"9b7b9ba0-98d7-4894-8ba2-67253c8ca7a3","IsCreationKey":false,"Key":205.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
               "CheckForHit",
-            ],},},"Disabled":false,"id":"1409bc43-5fd0-4f67-9ac2-5a2b69da8d6f","IsCreationKey":false,"Key":217.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"1242ef6e-f014-433e-b7ee-595bedefc541","IsCreationKey":false,"Key":217.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "parent": {

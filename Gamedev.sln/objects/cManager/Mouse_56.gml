@@ -32,7 +32,7 @@ if (position_meeting(mouse_x,mouse_y,pUnit)){
 if (global.skillTargeting){
 	if (position_meeting(mouse_x, mouse_y, pUnit)){
 		var unit = instance_position(mouse_x, mouse_y, pUnit);
-		if (unit.team != global.selected .team){
+		if (unit.team != global.selectedUnit.team){
 		var _skill = global.selectedUnit.selectedSkill;
 		ds_list_clear(global.selectedTargets);
 		
