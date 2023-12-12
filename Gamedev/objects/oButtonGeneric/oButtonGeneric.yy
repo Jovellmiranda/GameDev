@@ -10,7 +10,7 @@
   ],
   "parent": {
     "name": "Objects",
-    "path": "folders/Particle Systems/Objects.yy",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
     "name": "pButton",
